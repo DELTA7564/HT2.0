@@ -51,9 +51,6 @@ public class HT2 {
                 System.out.println(vector[contador-1]);
             }
         }
-        
-
-        
     }
     
 }
