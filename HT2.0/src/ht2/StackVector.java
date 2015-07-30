@@ -1,16 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/* *******************************************************
+ * Gabriel Martinez 14070
+ * Belen Hernandez 14361
+ * Arturo Garcia 14186
+ * Marcos Benedict 143681
+ *
+ * *******************************************************
+ * El proposito de este programa es crear una calculadora 
+ * utilizando herramientas vistas en clase, como lo son
+ * los ADTS, listas y Vectores.
+ * *******************************************************
  */
 
-/**
- *
- * @author dbs_jd
- */
 import java.util.Vector;
 
-public class StackVector<E> implements Stack<E>
+public class StackVector<E>
+ implements Stack<E>
 {
 	protected Vector<E> data;
 

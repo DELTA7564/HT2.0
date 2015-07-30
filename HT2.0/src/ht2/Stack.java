@@ -1,3 +1,19 @@
+/* *******************************************************
+ * Gabriel Martinez 14070
+ * Belen Hernandez 14361
+ * Arturo Garcia 14186
+ * Marcos Benedict 143681
+ *
+ * *******************************************************
+ * El proposito de este programa es crear una calculadora 
+ * utilizando herramientas vistas en clase, como lo son
+ * los ADTS, listas y Vectores.
+ * *******************************************************
+ * Stack: Interfaz que posee los metodos necesarios para 
+ * almacenar los datos necesarios para la calculadora,
+ * utiliza genericos para facilitar a la diversidad de
+ * codigo. 
+ */
 public interface Stack<E> 
 {
 
