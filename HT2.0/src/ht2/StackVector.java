@@ -13,8 +13,7 @@
 
 import java.util.Vector;
 
-public class StackVector<E>
- implements Stack<E>
+public class StackVector<E> extends AStack<E>
 {
 	protected Vector<E> data;
 

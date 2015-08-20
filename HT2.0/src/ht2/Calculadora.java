@@ -15,7 +15,7 @@
 public interface Calculadora{
     public void setString(String linea);
     
-    public void meterVector();
+    public void meterVector(int num1, int num2);
     
     public boolean calcularVector();
     

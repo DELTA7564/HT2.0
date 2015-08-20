@@ -1,3 +1,4 @@
+
 /* *******************************************************
  * Gabriel Martinez 14070
  * Belen Hernandez 14361
@@ -16,16 +17,17 @@
 public class Calculador implements Calculadora{
     private String linea=""; //almacena la cadena ingresada
     private boolean condicion=true; //almacena la condicion si es posible resolver
-    private StackVector<Integer> lista; //objeto de StackVector
+    private Stack<Integer> lista; //objeto de StackVector
+    private StackFactory factory;
 
     
     public void setString(String linea) {
         this.linea = linea; //se almacena cadena String ingresada
     }
 
-    public void meterVector() {
-         lista = new StackVector<Integer>(); //se crea el objeto
-         condicion = true; //se ajusta la condicion en true para iniciar
+    public void meterVector(int num1, int num2) {
+        lista = factory.getStack(num1, num2); //se crea el objeto
+        condicion = true; //se ajusta la condicion en true para iniciar
     }
 
     public boolean calcularVector() {
