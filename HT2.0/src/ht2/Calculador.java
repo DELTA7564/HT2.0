@@ -18,7 +18,7 @@ public class Calculador implements Calculadora{
     private String linea=""; //almacena la cadena ingresada
     private boolean condicion=true; //almacena la condicion si es posible resolver
     private Stack<Integer> lista; //objeto de StackVector
-    private StackFactory factory;
+    private StackFactory factory = new StackFactory();
 
     
     public void setString(String linea) {
@@ -26,6 +26,7 @@ public class Calculador implements Calculadora{
     }
 
     public void meterVector(int num1, int num2) {
+        
         lista = factory.getStack(num1, num2); //se crea el objeto
         condicion = true; //se ajusta la condicion en true para iniciar
     }

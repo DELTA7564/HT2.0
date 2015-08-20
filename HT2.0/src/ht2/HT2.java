@@ -36,7 +36,7 @@ public class HT2 {
             System.out.println("Usted ha elegido StackArrayList");
         }        
         if(num1 == 3){
-            System.out.println("Usted ha elegido StackLista, elija su tipo de implementacion: 1. Simplemente encadenada \n 2. Doblemente encadenada \n 3. Circular");
+            System.out.println("Usted ha elegido StackLista, elija su tipo de implementacion: \n 1. Simplemente encadenada \n 2. Doblemente encadenada \n 3. Circular");
             num2= scan.nextInt();
         }        
         try(BufferedReader br = new BufferedReader(new FileReader("file.txt"))){ //lee file txt linea por linea
